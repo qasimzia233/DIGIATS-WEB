@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+.main-container{
+  background-color: #f4f3ef;
+ 
+}
+
+.main-container h3{
+margin-left: 20px !important;
+margin-bottom: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.board-container{
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  margin:auto;
+  margin-top:96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.board-container .row{
+  margin: 1rem 0;
+}
+.row-a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.no-wrap{
+  white-space: nowrap;
+}
+
+ .f-column{
+      display: flex;
+      flex-direction: column;
+ }
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-center{
+  justify-content: center;
+}
+.flex-between{
+  justify-content: space-between;
+}
+.fa-center{
+  align-items: center;
+}
+.card-v-padding{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+.card-top-clear{
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: .3s linear all;
+}
+
+.agentsTable tr td {
+  white-space: nowrap;
+  padding: 1rem !important;
+  margin: 55px !important;
+}
+.agentsTable th {
+   border: none;
+}
+
+
+
+
+
+/* Card DashBoard */
+
+.card-counter{
+  box-shadow: 2px 2px 10px #DADADA;
+  margin: 5px;
+  padding: 1.5rem 1rem;
+  background-color: rgb(252, 252, 252);
+  height: 170px;
+  border-radius: 5px;
+  transition: .3s linear all;
+}
+
+.card-counter:hover{
+  box-shadow: 4px 4px 20px #DADADA;
+  transition: .3s linear all;
+}
+
+.card-counter i{
+  font-size: 4em;
+  opacity: 0.7;
+}
+
+.card-counter .count-numbers{
+ 
+
+  position: absolute;
+  right: 55px;
+  top: 65px;
+  font-style: italic;
+  text-transform: capitalize;
+  opacity: 0.5;
+  display: block;
+  font-size: 18px;
+}
+
+.card-counter .count-name{
+  position: absolute;
+  right: 55px;
+  top: 20px;
+  font-size: 22px;
+  display: block;
+}
+.main-container .progress {
+  height: 15px;
+}
+.card-counter .attend-count .count-row {
+
+   font-size: 1rem;
+   font-weight: bold;
+   margin-bottom: 0;
+}
+
+
+
+#nav-dash nav {
+  background-color: #3f4254;
+  z-index: 1111111;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 1rem 4rem 0 36px;
+  cursor: pointer;
+  overflow: initial !important;
+  display: initial !important;
+  animation: 5s ease infinite;
+}
+#nav-dash .navbar-nav > a {
+  margin: auto .3rem;
+  border-radius: .5rem;
+
+}
+#nav-dash .navbar-nav  a:hover {
+ background-color: black;
+
+}
+
+
+.pulse-parent :hover{
+  position: relative;
+  
+}
+
+.dot {
+  position: absolute;
+  top: 25%;
+  left: 27%;
+    border-radius: 40px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    -webkit-animation: animation-pulse 3.5s ease-out;
+    animation: animation-pulse 3.5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    /* opacity: 0; */
+  
+}
+
+
+.dot:hover{
+}
+
+@keyframes pulse {
+  1000% { transform: scale(3); 
+    border-width: 3px;
+    border-style: solid;
+    border-color: #e4e6ef;
+  }
+  50% { transform: scale(1); 
+    border-width: 3px;
+    border-style: solid;
+    border-color: #e4e6ef;
+  }
+  0% { transform: scale(.1);
+    border-width: 3px;
+    border-style: solid;
+    border-color: #e4e6ef;
+  } 
+}
+/* End */
