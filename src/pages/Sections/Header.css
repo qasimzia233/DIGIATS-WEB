@@ -1,0 +1,429 @@
+
+/* html,
+body,
+header,
+#intro {
+    width: 100%;
+} */
+
+#intro {
+      width: 100%;
+      min-height: 100vh;
+      background: rgb(42,35,175);
+      padding: 90px 15px 192px;
+      background: radial-gradient(circle, rgba(42,35,175,1) 0%, rgba(43,43,164,1) 50%, rgba(26,40,120,1) 100%);
+    } 
+ 
+   .header-container{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 5.6rem 1rem 12rem 1rem !important;
+    background-color: gold;
+    position: relative;
+
+   } 
+  
+  /* iphone */
+   .iphone-plus {
+      position: relative;
+      margin: 40px auto;
+      width: 230px;
+      height: 490px;
+      background-image: url(/src/assets/mobile_screen.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 15px;
+      box-shadow: 0px 0px 0px 6px #1f1f1f, 0px 0px 0px 8px #191919, 0px 0px 0px 13px #111;
+    }
+    .iphone-plus:before, .iphone-plus:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .iphone-plus:after {
+      bottom: 7px;
+      width: 140px;
+      height: 4px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+    }
+    .iphone-plus:before {
+      top: -3px;
+      width: 56%;
+      height: 10px;
+      background-color: #1f1f1f;
+      border-radius: 0px 0px 40px 40px;
+    }
+    .iphone-plus i,
+    .iphone-plus b,
+    .iphone-plus s,
+    .iphone-plus span {
+      position: absolute;
+      display: block;
+      color: transparent;
+    }
+    .iphone-plus i {
+      top: -10px;
+      left: 50%;
+      transform: translate(-50%, 6px);
+      height: 8px;
+      width: 15%;
+      background-color: #101010;
+      border-radius: 8px;
+      box-shadow: inset 0px -3px 3px 0px rgba(255, 255, 255, 0.2);
+    }
+    .iphone-plus b {
+      left: 1%;
+      top: -10px;
+      transform: translate(180px, 4px);
+      width: 8px;
+      height: 8px;
+      background-color: #101010;
+      border-radius: 4px;
+      box-shadow: inset 0px -3px 2px 0px rgba(255, 255, 255, 0.2);
+    }
+  
+    /* end mbile */
+  
+  
+    .reward-text{
+        font-size: 1.25rem;
+    }
+    .reward-text::before{
+        content: '\f559';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        padding-right: 20px;
+    }
+    .text_heading{
+        font-size: 5.5rem !important;
+        font-weight: 700 !important;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0 3rem;
+    }
+    .text_heading .light{
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 300;
+      letter-spacing: normal;
+  
+  }
+  
+  p.lead.paragraph{
+      font-size: 1.25rem;
+      margin: 1rem 0;
+      font-weight: 300;
+  }
+  
+  @media (max-width: 992px) {
+    .header-container{
+      overflow-y: hidden;
+      overflow-x: hidden;
+      padding: 5.6rem 1rem 6rem 1rem !important;
+      background-color: gold;
+      text-align: center ;
+  
+     } 
+  
+      .text_heading{
+        font-size: 3.5rem !important;
+        font-weight: 700 !important;
+      margin: 0;
+      padding: 0;
+        margin: 1rem 0 3rem;
+    }
+    .header-container .sec-mobile{
+      margin-right: -55px;
+      margin-top: 2rem;
+    }
+    
+      
+  }
+  
+  /* Header */
+  
+  #btn-header .btn-info {
+    color: #fff;
+    background-color: #0083dd;
+    border-color: #0083dd;
+  }
+  #btn-header .btn {
+    transition: all .3s ease;
+    text-decoration: none;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    white-space: normal;
+    line-height: 1.5;
+  }
+  #btn-header .btn-rounded {
+      border-radius: 10rem;
+  }
+
+  /* Section Features */
+
+   .section-features{
+     padding: 5rem 1rem 0;
+    width: 100%;
+   }
+
+  #section-features h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .section-features  .lead{
+    margin: 1rem auto;
+    font-size: 1.35rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #506690;
+    width: 90% !important;
+    
+  }
+  #border-rounded{
+    border-radius: 0.25rem !important;
+  }
+ #section-features .card{
+   background-color: white;
+   border-radius: 0;
+   box-shadow: none;
+   border: none;
+   position: relative;
+   z-index: 1;
+   text-align: left;
+ }
+ #section-features .row  .card-focus:hover{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  transform: scale(1.02);
+  transition: all ease-in-out .3s;
+  z-index: 2;
+}
+.stroke-primary{
+  stroke: #5533ff;
+}
+#section-features .card .card-paragraph{
+  font-size: 1rem;
+}
+
+
+
+
+
+
+/* benifits sections */
+
+.section-benifits{
+    width: 98%;
+    margin: 0 auto;
+}
+ .section-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ 
+ 
+ .section-left .rounded-circle{
+    width: 670px;
+    height: 670px;
+    background-color:#d8e4ed;
+}
+.section-benifits .phone-container{
+  width:670px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} 
+.section-benifits .phone-container .iphone-plus{
+  width: 260px;
+  height: 540px;
+  margin: 0;
+}
+.section-right{
+  padding: 0 4rem;
+}
+.section-benifits .section-right{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .section-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .section-left .rounded-circle{
+      width: 470px;
+      height: 470px;
+      background-color:#d8e4ed;
+  }
+  .section-benifits .phone-container{
+    width:460px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  } 
+  .section-benifits .phone-container .iphone-plus{
+    width: 200px;
+    height: 390px;
+    margin: 0;
+  }
+  .section-right{
+    padding: 0 1rem;
+  }
+  .section-benifits .section-right{
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  
+    
+}
+
+
+
+/* path sections */
+
+.Section_PathSuccess{
+  width: 95%;
+  margin: 0 auto;
+}
+.Section_PathSuccess .section-left{
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Section_PathSuccess .section-left .rounded-circle{
+  width: 600px;
+  height: 600px;
+  background-color:#d8e4ed;
+}
+.Section_PathSuccess .phone-container{
+width:590px;
+position: absolute;
+top: 0;
+bottom: 0;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+} 
+.Section_PathSuccess .phone-container .iphone-plus{
+width: 230px;
+height: 490px;
+margin: 0;
+}
+.Section_PathSuccess .section-right{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+/* Section Counter */
+
+.section-counter{
+  background: rgb(80,75,162);
+  background-image: linear-gradient(to right top,#53f,#161c2d);color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-counter .section-heading {
+   margin: 1rem auto;
+} 
+.section-counter .section-heading .text-contrast{
+   font-size: 2.875rem;
+  font-weight: 400;
+  padding: .5rem;
+}
+.section-counter .section-heading p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+.section-counter svg {
+  margin: 1rem 0 0 0;
+}
+.section-counter .counter{
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+}
+.section-counter .p-text{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+/* screen shots */
+/* .section-screen-shots{
+  padding: 58px 0  92px;
+}
+.section-screen-shots .swiper-containers{
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  transition: all .5s;
+
+}
+
+
+.section-screen-shots .swiper-slide-next {
+  box-shadow: 0 0.8rem 1.2rem rgba(0,0,0,.15);
+  z-index: 100;
+  transform: scale(1);
+}
+.section-screen-shots .img-container img {
+  height: 480px;
+ width: 195px;
+} */
+
+/* .slider-brands-container{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+} */
+.slider-brands-container img {
+  max-width: 160px;
+  max-height: 60px;
+  transition: all .5s;
+  
+
+}
+.slider-brands-container img:hover{
+  transform: scale(1.3);
+
+}
+
+/* testimonials */
+.section-testimonials .swiper-pagination{
+  bottom: 0;
+  margin: 15px;
+}
+.linear-gradients{
+  background: linear-gradient(160deg,#f9fbfd 75%,rgb(255, 255, 255) 0%);
+  
+}
+
